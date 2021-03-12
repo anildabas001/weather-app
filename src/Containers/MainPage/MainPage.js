@@ -41,7 +41,7 @@ const MainPage = (props) => {
               else {
                 updateShowDataList(false);
               }                
-            }).catch(err => {console.log('fuck');updateError('Something went wrong. Please try again.')});;
+            }).catch(err => {updateError('Something went wrong. Please try again.')});;
             updateError(null);  
         }}, 300);
     }

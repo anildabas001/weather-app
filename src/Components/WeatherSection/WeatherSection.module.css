@@ -1,0 +1,182 @@
+.WeatherBox {
+    width: 90%;
+    margin: 0 auto;
+    border: 2px solid #e2e8f0;
+    background-color: #e2e8f0;
+    min-height: 400px;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.Heading h2 {
+    font-size: 2rem;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 500;
+}
+
+.Heading p {
+    font-size: 0.9rem;
+    margin: 0px;
+    padding: 0px;
+    text-indent: 5px;
+}
+
+.WeatherState img {
+    width: 75px;
+    display: inline-block;
+    max-width: 90px;
+    margin-bottom: 15px;
+}
+
+.WeatherState p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.WeatherSection1 {
+    margin: 40px 0px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.WeatherSection1 p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.WeatherSection1 p span {
+    margin-left: 4px;
+}
+
+.WeatherSection1 .MainTemp {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.WeatherSection2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.WeatherSection2 p {
+    margin: 8px 0px;
+}
+
+.WeatherSection2 p span {
+    padding-left: 3px;
+}
+
+.lds-facebook {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-facebook div {
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    width: 16px;
+    background: black;
+    animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  }
+  .lds-facebook div:nth-child(1) {
+    left: 8px;
+    animation-delay: -0.24s;
+  }
+  .lds-facebook div:nth-child(2) {
+    left: 32px;
+    animation-delay: -0.12s;
+  }
+  .lds-facebook div:nth-child(3) {
+    left: 56px;
+    animation-delay: 0;
+  }
+  @keyframes lds-facebook {
+    0% {
+      top: 8px;
+      height: 64px;
+    }
+    50%, 100% {
+      top: 24px;
+      height: 32px;
+    }
+  }
+  
+  .LoaderContainer {
+    text-align: center;
+    margin: 100px auto;
+  }
+
+  @media only screen and (max-width: 450px) {
+    .WeatherBox {
+        width: 95%;       
+        min-height: 350px;
+        margin-top: 10px;
+        padding: 5px;
+    }
+    
+    .Heading h2 {
+        font-size: 1.4rem;        
+    }
+    
+    .Heading p {
+        font-size: 0.8rem;
+    }
+    
+    .WeatherState img {
+        margin: 0 auto;
+        width: 75px;
+        text-align: center;
+        display: block;
+        max-width: 90px;
+        margin-bottom: 20px;
+    }
+    
+    .WeatherState p {
+        font-size: 1.2rem;
+    }
+
+    .WeatherState {
+        margin-bottom: 50px;
+    }
+    
+    .WeatherSection1 {
+        margin: 40px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-items:center;
+    }
+    
+    .WeatherSection1 p {
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+    
+    .WeatherSection1 p span {
+        margin-left: 4px;
+    }
+    
+    .WeatherSection1 .MainTemp {
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin-bottom: 10px;        
+    }
+    
+    .WeatherSection2 {
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .WeatherSection2 p {
+        margin: 8px 0px;
+    }
+    
+    .WeatherSection2 p span {
+        padding-left: 3px;
+    }
+}

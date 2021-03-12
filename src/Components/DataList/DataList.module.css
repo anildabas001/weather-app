@@ -1,0 +1,36 @@
+.DataList {
+    position: relative;
+    display:block;
+    max-height: 200px;
+    overflow: auto;
+    width: 62%;
+    box-sizing: border-box;
+    border: 2px solid #e2e8f0;
+    border-top: none;
+    border-radius: 5px;
+}   
+
+.DataList p {
+    font-size: 1.2rem;
+    border-top: 1px solid #e2e8f0;
+    cursor: pointer;
+    margin: 0px;
+    padding: 5px 15px;
+}
+
+.DataList p:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+@media only screen and (max-width: 450px) {
+    .DataList {
+        font-size: 1rem;
+        width: 90%;
+    }
+
+    .DataList p{
+        font-size: 1rem;
+        padding: 2px 8px;
+    }
+}

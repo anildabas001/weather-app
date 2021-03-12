@@ -4,7 +4,6 @@ import classes from './WeatherSection.module.css';
 const WeatherSection = (props) => {
     const loader = (<div className={classes['lds-facebook']}><div></div><div></div><div></div></div>);
     let element = null;
-    console.log(props.weatherData);
 
     var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
     var today  = new Date();
